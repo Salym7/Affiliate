@@ -1,0 +1,92 @@
+.submit {
+
+  &__inner {
+    padding: 80px 20px;
+    background: $color-second;
+    color: $color-first;
+    z-index: 5;
+    position: relative;
+  }
+
+  & {
+    position: relative;
+  }
+
+  & .container {
+    z-index: 2;
+  }
+
+  &__title {
+    font-size: $font-xl;
+    color: $color-first;
+    font-weight: 700;
+    margin-bottom: 57px;
+  }
+
+  &:after {
+    display: block;
+    position: absolute;
+    content: '';
+    background: $color-six;
+    width: 100%;
+    height: 50%;
+    bottom: 50%;
+    left: 0;
+    z-index: 1;
+  }
+
+  &:before {
+    display: block;
+    position: absolute;
+    content: '';
+    background: $color-first;
+    width: 100%;
+    top: 50%;
+    z-index: 1;
+    height: 50%;
+  }
+
+  .btn {
+    height: 64px;
+    width: 116px;
+    background: $color-first;
+    color: $color-second;
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid transparent;
+  }
+
+  .btn:hover {
+    background: $color-second;
+    color: $color-first;
+    border: 1px solid $color-first;
+  }
+
+  .form-control {
+    height: 64px;
+    width: 400px;
+    margin-right: 16px;
+    background: $color-second;
+    border: 1px solid $color-first;
+    font-size: 20px;
+    color: $color-first;
+    font-weight: 700;
+
+  }
+
+  input::-webkit-input-placeholder {
+    color: $color-first !important;
+  }
+
+  input::-moz-placeholder {
+    color: $color-first !important;
+  }
+
+  input:-moz-placeholder {
+    color: $color-first !important;
+  }
+
+  input:-ms-input-placeholder {
+    color: $color-first !important;
+  }
+}

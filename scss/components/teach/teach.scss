@@ -1,0 +1,36 @@
+.teach {
+  background: $color-first;
+  padding: 140px 0 80px;
+
+  &__col-content {
+    padding: 120px 0;
+  }
+
+  &__title:before {
+    position: absolute;
+    background: $color-second;
+    content: "";
+    height: 2px;
+    width: 150px;
+    bottom: -7px;
+    left: 0;
+  }
+
+  &__title {
+    position: relative;
+    font-size: $font-xl;
+    font-weight: bold;
+    line-height: 52px;
+    margin-bottom: 69px;
+  }
+
+  &__text {
+    margin-bottom: 46px;
+    font-size: $font-lg;
+  }
+
+  &__img {
+    margin-top: -34px;
+    margin-left: -16px;
+  }
+}

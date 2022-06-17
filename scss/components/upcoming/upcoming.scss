@@ -1,0 +1,58 @@
+.upcoming {
+  background: $color-six;
+  padding: 140px 0;
+
+  &__inner-top {
+    max-width: 644px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+
+  &__inner-top-text {
+    color: $color-first;
+    margin-bottom: 40px;
+    line-height: 33px;
+    font-size: $font-lg;
+  }
+
+  &__inner-top-title {
+    font-weight: 700;
+    color: $color-first;
+    position: relative;
+    margin-bottom: 65px;
+  }
+
+  &__inner-top-title:before {
+    position: absolute;
+    background: $color-second;
+    content: "";
+    height: 2px;
+    width: 150px;
+    bottom: -17px;
+    left: calc(50% - 75px);
+  }
+
+  &__inner-price {
+    gap: 48px;
+  }
+
+  &__box {
+    background: #ffffff;
+    color: $color-first;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  &__box-inner {
+    padding: 24px;
+  }
+
+  &__box-title {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  &__box-text {
+    margin-bottom: 28px;
+  }
+}

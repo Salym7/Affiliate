@@ -1,0 +1,24 @@
+.courses {
+  @media (max-width: 1200px) {
+    &__inner-price {
+      gap: 30px;
+    }
+  }
+  @media (max-width: 992px) {
+    padding: 70px 0;
+    &__inner-price {
+      gap: 0px;
+    }
+    &__box {
+      margin-bottom: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+    &__inner-price {
+      gap: 0px;
+    }
+    &__box {
+      margin-bottom: 30px;
+    }
+  }
+}

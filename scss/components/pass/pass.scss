@@ -1,0 +1,37 @@
+.pass {
+  padding: 80px 0 90px  ;
+  background: $color_second;
+
+  &__article-text {
+    color: $color-first;
+    max-width: 1100px;
+    margin: 0 auto 40px;
+    font-style: italic;
+    line-height: 42px;
+    font-size: $font-lgg;
+  }
+
+  &__article-star {
+    margin-bottom: 40px;
+  }
+
+  &__author {
+    color: #4E4E65;
+    margin-bottom: 40px;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    box-sizing: border-box;
+    border: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #4E4E65;
+  }
+
+  .carousel-indicators {
+    margin-bottom: -15px;
+  }
+
+
+}

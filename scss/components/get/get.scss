@@ -1,0 +1,33 @@
+.get {
+  background: $color-first;
+  margin-top: -1px;
+
+  &__col-img {
+    margin-left: -74px;
+  }
+
+  &__inner-col-contact {
+    padding: 144px 48px;
+  }
+
+  &__col-title {
+    line-height: 52.8px;
+    font-size: $font-xl;
+    margin-bottom: 65px;
+    position: relative;
+  }
+
+  &__col-title:before {
+    position: absolute;
+    background: $color-second;
+    content: "";
+    height: 2px;
+    width: 150px;
+    bottom: -16px;
+    left: 0;
+  }
+
+  &__col-text {
+    margin-bottom: 45px;
+  }
+}
