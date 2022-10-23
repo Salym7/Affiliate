@@ -113,7 +113,7 @@ li {
   position: relative;
 }
 .header__cart:hover svg path {
-  fill: #57D9A6;
+  stroke: #57D9A6;
 }
 .header__cart:after {
   content: "";
@@ -128,6 +128,15 @@ li {
   border: 2px solid #57D9A6;
 }
 
+@media (max-width: 992px) {
+  .header .nav-link {
+    font-size: 30px;
+    color: #F6F6F8;
+  }
+  .header .nav-link:hover {
+    transform: scale(1);
+  }
+}
 @media (max-width: 576px) {
   .header__top-text {
     font-size: 15px;

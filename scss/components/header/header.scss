@@ -25,7 +25,7 @@
   }
 
   &__cart:hover svg path {
-    fill: $color-second;
+    stroke: $color-second;
   }
 
   &__cart:after {

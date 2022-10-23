@@ -1,4 +1,16 @@
 .header {
+
+  @media (max-width: 992px) {
+    .nav-link {
+      font-size: 30px;
+      color: $color-four;
+    }
+
+    .nav-link:hover {
+      transform: scale(1);
+    }
+  }
+
   @media (max-width: 576px) {
     &__top-text {
       font-size: 15px;
